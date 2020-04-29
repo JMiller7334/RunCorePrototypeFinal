@@ -1,0 +1,12 @@
+<resources>
+    // Login Screen
+    <string name="app_name">RunCore Prototype</string>
+    <string name="strgUsernameHint">Username</string>
+    <string name="strgPasswordHint">Password</string>
+    <string name="strgButtonLogin">Login</string>
+
+    <string name="errMsgLogin">Invalid username or password. Please retry.</string>
+
+    \\WorkoutScreen
+    <string name="strgButtonLogout">Logout</string>
+</resources>
