@@ -43,9 +43,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun checkLogin (attemptUsername: String, attemptPassword: String): LoginStatus{
-        val storedUsername = "1"
-        val storedPassword = "1"
+    private fun checkLogin (attemptUsername: String, attemptPassword: String): LoginStatus{
+        val storedUsername = "jacob"
+        val storedPassword = "Password1"
         if (attemptUsername != storedUsername){
             return LoginStatus.InvalidUsername
         }
