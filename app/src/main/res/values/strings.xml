@@ -9,4 +9,6 @@
 
     \\WorkoutScreen
     <string name="strgButtonLogout">Logout</string>
+    <string name="strgButtonShoeTracker">Shoe Tracker</string>
+    <string name="strgButtonStart">Start Run</string>
 </resources>

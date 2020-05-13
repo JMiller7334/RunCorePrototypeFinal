@@ -15,7 +15,34 @@
         android:text="@string/strgButtonLogout"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintHorizontal_bias="0.905"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idButtonLogout3"
+        android:layout_width="169dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="564dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/strgButtonStart"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idButtonShoeTracker" />
+
+    <Button
+        android:id="@+id/idButtonShoeTracker"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/strgButtonShoeTracker"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
