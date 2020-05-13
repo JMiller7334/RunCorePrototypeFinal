@@ -12,12 +12,6 @@ class ShoeTracker : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shoe_tracker)
 
-        val buttonBack = findViewById<Button>(R.id.idButtonBack1)
-        buttonBack.setOnClickListener {
-            val screenWorkout = Intent(this, WorkoutScreen::class.java)
-            startActivity(screenWorkout)
-        }
-
         val displayShoeName = findViewById<TextView>(R.id.idDisplayShoeName)
         val displayShoeMileage = findViewById<TextView>(R.id.idDisplayShoeMileage)
 
@@ -32,6 +26,12 @@ class ShoeTracker : AppCompatActivity() {
             displayShoeMileage.text = newMileage
         }
 
+        val buttonBack = findViewById<Button>(R.id.idButtonBack1)
+        buttonBack.setOnClickListener {
+            val screenWorkout = Intent(this, WorkoutScreen::class.java)
+            screenWorkout.putExtra("runningShoe", "${displayShoeName.text}")
+            startActivity(screenWorkout)
+        }
 
     }
 }

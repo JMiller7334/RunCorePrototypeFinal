@@ -19,6 +19,7 @@
     <string name="strgEnterShoeName">Enter Shoe Name</string>
     <string name="strgEnterShoeMileage">Enter Mileage</string>
 
+    <string name="strgTxtSavedShoes">Saved Shoes</string>
     <string name="strgTxtShoeName">Shoe Name:</string>
     <string name="strgTxtShoeMileage">Current Mileage:</string>
     <string name="strgTxtShoeSetup">Edit/Setup Tracker</string>

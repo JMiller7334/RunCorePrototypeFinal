@@ -35,27 +35,27 @@
 
     <TextView
         android:id="@+id/idCurrentShoes"
-        android:layout_width="205dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="366dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
         android:gravity="center_vertical"
         android:text="@string/strgTxtCurrentShoes"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idButtonShoeTracker" />
 
     <Button
         android:id="@+id/idButtonShoeTracker"
-        android:layout_width="207dp"
-        android:layout_height="49dp"
+        android:layout_width="237dp"
+        android:layout_height="51dp"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/strgButtonShoeTracker"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
